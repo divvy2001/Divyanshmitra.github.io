@@ -1,0 +1,40 @@
+.box{
+    background-color:black;
+    display: flex;
+    align-content:space-around;
+    justify-content: space-evenly;
+
+}
+
+
+.box3{
+    background-color: orangered;
+    display: flex;
+    border: 2px solid black;
+    width: 20%;
+    height : 40% ;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+
+.box3:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.box2{
+    display: flex;
+    width: 304px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px){
+.box{
+    flex-direction: column;
+}
+.box3{
+    margin: 10px;
+}
+}
