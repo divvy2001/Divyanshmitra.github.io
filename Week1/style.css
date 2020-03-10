@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Algerian, Helvetica, sans-serif;
+    font-size: 70;
+    /*width: 1024px;*/
+    text-align: center;
+    /*margin-right: auto; */
+    background-image: url(bgg.jpg);
+}
+
+img {
+ width: 30%;
+ padding: 0px;
+ border-radius: 10px;
+}
+
+ 
+
+ul {
+    list-style: none;   
+}
+
+.inst
+{
+width: 5%;
+}
+
+.fb
+{
+ width: 5%;
+}
